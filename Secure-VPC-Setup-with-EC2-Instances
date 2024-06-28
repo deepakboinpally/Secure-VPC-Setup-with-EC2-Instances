@@ -4,7 +4,7 @@ Secure VPC Setup with EC2 Instances
 Hey everyone! I recently tackled a fascinating project where I built a super secure space in the cloud called a Virtual Private Cloud (VPC) using Amazon Web Services (AWS). Let me walk you through how I did it::
 
 VPC Design and Configuration:
-To start off, I crafted our very own custom area in the cloud with its own unique addresses. Picture it like designing your dream neighborhood. I made sure there were two types of zones: one where everyone could see, known as public subnets, and another more secluded area, called private subnets. Each zone had its own set of rules for who could come and go
+To start off, I crafted our very own custom area in the cloud with its own unique addresses. I made sure there were two types of zones: one where everyone could see, known as public subnets, and another more secluded area, called private subnets. Each zone had its own set of rules for who could come and go
 
 Network Security Implementation:
 Safety was my top priority, so I set up special rules to manage who could enter and exit our cloud neighborhood. It's like having diligent security guards checking everyone at the entrance. Additionally, I ensured that our computer instances, like mini virtual computers in the cloud, only permitted access to the right people by configuring their own security measures.
